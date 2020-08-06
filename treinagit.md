@@ -46,7 +46,9 @@
 
 #### Alterar o aquivos, gravar
 
-- der git status - o arquivo volta ao untrack
+- der git status - o arquivo vai para fase staged, ou seja, foi, ele está no controle de versão, porém foi alterado, é preciso, usar add e commit
+
 - der git add nome arquivo - volta para pronto para commit
+
 - der git commit -m "alterado para teste e comitar"
 
