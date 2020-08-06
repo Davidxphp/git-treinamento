@@ -19,4 +19,34 @@
 #### Entrar VsCode:
 - code .
 - criar arquivo com nome treinagit ou outro  nome
- 
+
+### Vamos ver os stagios
+
+##### 1-Untracked files
+- arquivos não versionados pelo git
+
+###### git add
+-  incluir arquivos para commit
+- git add arquivo1, arquivo2,  ...
+- git add . -> adiciona todos os arquivos
+
+##### 2-Changes to be committed
+- Após o comando Add os arquivos ficaram prontos para serem comitados pelo git.
+
+- Gera um hash a uma identificação.
+
+##### 3-Após o comando commit os arquivos são commitados
+
+##### git commit -m "nome_arquivo"
+
+- podemos ver como  estão os arquivos usando:
+
+- git status
+- git log
+
+#### Alterar o aquivos, gravar
+
+- der git status - o arquivo volta ao untrack
+- der git add nome arquivo - volta para pronto para commit
+- der git commit -m "alterado para teste e comitar"
+
